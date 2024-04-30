@@ -5,9 +5,9 @@ There is a validation of attributes like u can’t post any contact without all 
 
 On the home page (‘/’), It is a contact page, user can add the contact, and below that the list of all the contacts available.
 
-On this page,
+- On this page,
 
-Two sections –
+- Two sections –
 sidebar for all the routes
 create contact and all contacts -
 From there, the user can view any contact data by clicking on the view button. After that user can update the contact details by clicking on the edit button and that button shows on the form, In this form the user can edit any attributes of that contact. After that there is another button which is the delete button, that button can delete the contact.
@@ -15,9 +15,9 @@ From there, the user can view any contact data by clicking on the view button. A
 On the second page (‘/chartsandmaps’), Is a Charts and Maps page, the user can see the total number of cases on dates, and the Map can show the data of all the countries.
 
 
-On this page,
+- On this page,
 
-Two sections –
+- Two sections –
 sidebar for all the routes
 Chart and Map –
 The chart can show the line graph of covid 19 active cases on the dates. For this Chart.js is used
