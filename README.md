@@ -1,6 +1,6 @@
 # taiyo-ai-frontend-code
 
-## Live Link:- https://6630fd01cf583e14c321efdc--charming-alpaca-3bc9e2.netlify.app/chartsandmaps
+## Live Link:- https://6630fd01cf583e14c321efdc--charming-alpaca-3bc9e2.netlify.app/
 In this app, the user can add a contact by clicking on create contact button, and a pop-up will show one form, fill that form with name, last name, and status attributes.
 
 There is a validation of attributes like u can’t post any contact without all the attributes.
