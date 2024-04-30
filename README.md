@@ -5,7 +5,7 @@ There is a validation of attributes like u can’t post any contact without all 
 
 On the home page (‘/’), It is a contact page, user can add the contact, and below that the list of all the contacts available.
 
-- On this page,
+On this page,
 
 - Two sections –
 sidebar for all the routes
@@ -14,8 +14,7 @@ From there, the user can view any contact data by clicking on the view button. A
 
 On the second page (‘/chartsandmaps’), Is a Charts and Maps page, the user can see the total number of cases on dates, and the Map can show the data of all the countries.
 
-
-- On this page,
+On this page,
 
 - Two sections –
 sidebar for all the routes
