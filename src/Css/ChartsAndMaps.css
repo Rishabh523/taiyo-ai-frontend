@@ -1,15 +1,23 @@
-#charts_page_div{
-    display: flex;
-    margin: 10px;
-    margin-bottom: 500px;
+#charts_page_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
 }
-@media screen and (max-width: 900px){
-    #charts_page_div{
-        display: grid;
-        margin: 10px;
-    }
+
+
+@media screen and (max-width: 900px) {
+  #charts_page_div {
+      display: grid;
+      margin: 10px;
   }
-  .leaflet-container{
-    height: 500px;
-    width: 100%;
-  }
+}
+
+
+.leaflet-container {
+  height: 400px; 
+  width: 100%;
+  margin: 0 auto; 
+  border-radius: 10px; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}

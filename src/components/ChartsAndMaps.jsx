@@ -63,7 +63,7 @@ useEffect(() => {
     <div>
         <Heading color={'white'} p={"10px 20px"} bg={"#28686e"}>Charts and Maps</Heading>
         <div id="charts_page_div">
-        {window.innerWidth>900?<Box padding={"10px"} w={"19%"} boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}>
+        {window.innerWidth>900?<Box padding={"10px"} w={"30%"} boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}>
                <Box><Link style={{textDecoration:"none",fontSize:"20px",fontWeight:"bold"}} to="/">Contacts</Link></Box>
                <br />
                <br />
@@ -72,7 +72,7 @@ useEffect(() => {
                <Box><Link style={{textDecoration:"none",fontSize:"20px",fontWeight:"bold"}} to="/">Contacts</Link></Box>
                <Box><Link style={{textDecoration:"none",fontSize:"20px",fontWeight:"bold"}} to="/chartsandmaps">Charts & Maps</Link></Box>
             </Flex>}
-            <Box padding={"30px"} margin={'auto'}  w={"79%"} boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"} border={"1px solid gray"}>
+            <Box padding={"30px"} margin={'auto'}  w={"60%"} boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"} border={"1px solid gray"}>
             <Heading>COVID-19 Dashboard</Heading>
              <Box >
                 {window.innerWidth>900?<canvas id="myChart" width="800" height="300"></canvas>:<canvas id="myChart" width="400" height="300"></canvas>}

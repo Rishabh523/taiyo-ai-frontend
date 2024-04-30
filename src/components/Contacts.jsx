@@ -6,6 +6,7 @@ import axios from 'axios'
 import {v4} from "uuid"
 import { useDispatch, useSelector } from 'react-redux'
 import { addContact } from '../Redux/Add_Contacts/addContacts.action.js'
+import { getByDisplayValue } from '@testing-library/react'
 
 const getData=async()=>{
     return await axios.get("https://taiyo-ai-server.onrender.com/contacts")
@@ -79,17 +80,17 @@ const viewContact=()=>{
   return (
     <div id="contact_page">
         <Heading color={'white'} p={"10px 20px"} bg={"#28686e"}>Contact Page</Heading>
-        <div id="contact_page_div">
-            {window.innerWidth>900?<Box padding={"10px"} w={"19%"} boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}>
+        <div id="contact_page_div" >
+            {window.innerWidth>900?<Box padding={"10px"} w={"30%"} boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}>
                <Box><Link style={{textDecoration:"none",fontSize:"20px",fontWeight:"bold"}} to="/">Contacts</Link></Box>
                <br />
                <br />
                <Box><Link style={{textDecoration:"none",fontSize:"20px",fontWeight:"bold"}} to="/chartsandmaps">Charts & Maps</Link></Box>
-            </Box>:<Flex justifyContent={"space-evenly"} w={"100%"} margin={'auto'} marginBottom={"20px"} p={"10px 0px"}  boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}>
+            </Box>:<Flex justifyContent={"space-between"} w={"100%"} margin={'auto'} marginBottom={"20px"} p={"10px 0px"}  boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}>
                <Box><Link style={{textDecoration:"none",fontSize:"20px",fontWeight:"bold"}} to="/">Contacts</Link></Box>
                <Box><Link style={{textDecoration:"none",fontSize:"20px",fontWeight:"bold"}} to="/chartsandmaps">Charts & Maps</Link></Box>
             </Flex>}
-            <Box padding={"30px"} margin={'auto'}  w={"79%"} boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"} border={"1px solid gray"}>
+            <Box padding={"30px"} margin={'auto'}  w={"60%"} boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"} border={"1px solid gray"}>
                {flag?<></>:<Button marginTop={"20px"} onClick={onOpen}>Create Contact</Button>}
                <Box>
                 {
